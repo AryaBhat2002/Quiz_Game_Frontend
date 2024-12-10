@@ -27,6 +27,9 @@ const LeaderboardPage = () => {
       <div className="text-center mt-4">
         <Link to="/home" className="text-yellow-500 hover:underline">Back to Home</Link>
       </div>
+      <div className="text-center mt-4">
+        <Link to="/" className="text-yellow-500 hover:underline">Question Page</Link>
+      </div>
     </div>
   );
 };

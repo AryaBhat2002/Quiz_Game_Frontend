@@ -46,7 +46,7 @@ const UserPage = () => {
             required
           />
         </div>
-        <button type="submit" className="w-full py-2 mt-4 bg-yellow-500 text-white rounded-md hover:bg-yellow-600">Register</button>
+          <button type="submit" className="w-full py-2 mt-4 bg-yellow-500 text-white rounded-md hover:bg-yellow-600">Register</button>
       </form>
     </div>
   );

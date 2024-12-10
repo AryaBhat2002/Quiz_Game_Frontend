@@ -8,10 +8,10 @@ import AdminLoginPage from './pages/AdminLoginPage';
 import AdminDashboard from './components/AdminDashboard';
 import LeaderboardPage from './pages/LeaderboardPage';
 import UserPage from './pages/UserPage';
-//import AdminDashboard from './components/AdminDashboard';
 import AddQuestionPage from './pages/AddQuestionPage';
 import ViewQuestionPage from './pages/ViewQuestionPage';
 import ViewUserPage from './pages/ViewUserPage';
+import AdminPage from './pages/AdminPage';
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
           <Route path="/admin/login" element={<AdminLoginPage />} />
-          <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/admin" element={<AdminPage />} />
           <Route path="/admin/leaderboard" element={<LeaderboardPage />} />
           <Route path="/user" element={<UserPage />} />
 
